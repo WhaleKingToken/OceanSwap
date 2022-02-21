@@ -1,0 +1,41 @@
+{
+  "name": "PancakeSwap Default List",
+  "timestamp": "2022-01-26T11:45:09Z",
+  "version": {
+    "major": 4,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pancakeswap.finance/logo.png",
+  "keywords": [
+    "pancake",
+    "default"
+  ],
+  "tokens": [
+    {
+      "name": "WhaleKing",
+      "symbol": "WhaleKing",
+      "address": "0xA2BEA839d51Cd64E768B9607fE3a62b0169e2432",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://github.com/WhaleKingToken/tokens/blob/d33fc1f18c208ef1502a9198b46052c6ba4945b6/bsc/0xA2BEA839d51Cd64E768B9607fE3a62b0169e2432/logo.png?raw=true"
+    },
+    {
+      "name": "WBNB Token",
+      "symbol": "WBNB",
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c.png"
+    },
+    {
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "chainId": 56,
+      "decimals": 18,
+      "logoURI": "https://pancakeswap.finance/images/tokens/0x55d398326f99059ff775485246999027b3197955.png"
+    }
+  ]
+}

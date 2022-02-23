@@ -10,8 +10,9 @@ const StyledPage = styled.div<{ $removePadding: boolean }>`
   width: 100%;
   padding: ${({ $removePadding }) => ($removePadding ? '0' : '16px')};
   padding-bottom: 0;
-  min-height: calc(100vh - 64px);
-  background: ${({ theme }) => theme.colors.gradients.bubblegum};
+  min-height: calc(100vh - 57px) !important;
+  background: url("/images/bg.jpg");
+  background-size: cover !important;
 
   ${({ theme }) => theme.mediaQueries.xs} {
     background-size: auto;

@@ -56,7 +56,7 @@ function MyApp(props: AppProps) {
           name="description"
           content="The king of the Ocean."
         />
-        <meta name="theme-color" content="#1FC7D4" />
+        <meta name="theme-color" content="#3275E6" />
         <title>OceanSwap</title>
       </Head>
       <Providers store={store}>

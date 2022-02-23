@@ -85,7 +85,7 @@ export const LilacBall: React.FC<SvgProps> = (props) => {
 export const TealBall: React.FC<SvgProps> = (props) => {
   return (
     <Svg viewBox="0 0 32 32" {...props}>
-      <circle cx="16" cy="16" r="16" fill="#1FC7D4" />
+      <circle cx="16" cy="16" r="16" fill="#3275E6" />
       <g style={{ mixBlendMode: 'multiply' }} opacity="0.1">
         <path
           fillRule="evenodd"

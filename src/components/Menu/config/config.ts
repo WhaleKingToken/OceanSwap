@@ -14,7 +14,7 @@ const config: (t: ContextApi['t']) => ConfigMenuItemsType[] = (t) => [
   },
   {
     label: t('Liquidity'),
-    icon: 'Liquidity',
+    icon: 'Earn',
     href: '/liquidity',
     showItemsOnMobile: false,
     items: [],

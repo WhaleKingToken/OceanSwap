@@ -16,5 +16,14 @@ export const StyledSwapContainer = styled(Flex)<{ $isChartExpanded: boolean }>`
 `
 
 export const StyledInputCurrencyWrapper = styled(Box)`
-  width: 328px;
+  @media screen and (min-width: 601px) {
+    &.yan-fan-diy {
+      width: 428px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    &.yan-fan-diy {
+      width: 328px;
+    }
+  }
 `
